@@ -1,0 +1,1138 @@
+﻿a {
+    outline: medium none;
+}
+li a:hover, li a {
+    cursor: pointer;
+}
+img {
+    border: medium none;
+}
+.clear {
+    clear: both;
+}
+.hidden {
+    display: none;
+}
+.aui-dialog .macro-list-item .add-button input, .aui-dialog .dialog-button-panel button.button-panel-button {
+    font-size: 12px;
+    overflow: visible;
+    padding: 2px 6px 3px;
+    width: auto;
+}
+.gadget form.aui {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    margin-bottom: 0;
+    padding: 15px 15px 0;
+}
+.gadget form.aui fieldset {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.gadget form.top-label fieldset {
+    margin: 0 auto;
+    width: 230px;
+}
+.gadget form.aui .text {
+    width: 225px;
+}
+.gadget form.aui .list-container label {
+    padding-top: 2px;
+}
+.gadget form.aui .list-container ul.faux-list {
+    line-height: 1.2;
+    margin: 0 0 0.4em;
+}
+.gadget form.aui .list-container ul.faux-list li {
+    min-height: 1.4em;
+    overflow: auto;
+}
+.gadget form.aui .list-container ul.faux-list li span {
+    display: block;
+    float: left;
+    margin: 0 0.3em 0 0;
+    min-width: 3em;
+    width: auto;
+}
+.gadget form.aui .list-container ul.faux-list li a, .gadget form.aui .list-container ul.faux-list li a:link, .gadget form.aui .list-container ul.faux-list li a:visited {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/icoblack_delete.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 13px;
+    margin: 0.2em 0 0;
+    text-indent: -9999px;
+    width: 13px;
+}
+.gadget form.aui .list-container ul.faux-list li a:hover, .gadget form.aui .list-container ul.faux-list li a:active, .gadget form.aui .list-container ul.faux-list li a:focus {
+    background-image: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/ico_delete.png");
+}
+.gadget form.aui .list-container button.js {
+    padding: 2px 4px 3px;
+}
+.gadget form.aui div.submit {
+    text-align: center;
+}
+.aui-dd-parent .aui-dropdown {
+    border-color: #BBBBBB;
+    list-style-type: none;
+}
+.aui-dd-parent .standard li.groupmarker {
+    border-top: 1px solid #BBBBBB;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+.aui-dd-parent .aui-dropdown a.item-link {
+    display: block;
+    text-decoration: none;
+}
+.aui-dd-parent.active a.aui-dd-trigger {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-position: -26px 0;
+    border-color: -moz-use-text-color -moz-use-text-color #FFFFFF;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    position: relative;
+    z-index: 2004;
+}
+.dashboard {
+    clear: both;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 1em;
+    position: relative;
+    text-align: left;
+}
+.dashboard .dashboard-title {
+    border-bottom: 1px solid #666666;
+    font-size: 150%;
+    font-weight: 700;
+}
+.dashboard #dashboard-header:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.dashboard ul.disabled span {
+    color: #999999;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.6em 0.8em;
+}
+.dashboard ul.disabled a {
+    padding: 0;
+}
+.dashboard .columns {
+    clear: both;
+    margin: 3em 0;
+    padding: 1em 0;
+}
+.dashboard ul.column {
+    float: left;
+    list-style-type: none;
+    margin: 0 1% -1.5em;
+    min-height: 200px;
+    padding: 0;
+    width: 47.5%;
+}
+.dashboard ul.empty {
+    position: relative;
+}
+.dashboard ul.empty li.empty-text, .dashboard .columns .no-gadgets p, .dashboard .columns .placeholder p {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 2px dashed #BBBBBB;
+    color: #AAAAAA;
+    font-size: 2em;
+    height: 200px;
+    padding: 2em;
+    text-align: center;
+}
+.layout-a ul.column, .layout-a div.gadget {
+    width: 98%;
+}
+.layout-a ul.column.second, .layout-a ul.column.third {
+    display: none;
+}
+.layout-aa ul.column, .layout-aa div.gadget {
+    width: 47.5%;
+}
+.layout-aa ul.third {
+    display: none;
+}
+.layout-ba ul.column, .layout-ba div.gadget {
+    width: 68%;
+}
+.layout-ba ul.first, .layout-ba div.gadget.first {
+    width: 27%;
+}
+.layout-ba ul.third {
+    display: none;
+}
+.layout-ab ul.column, .layout-ab div.gadget {
+    width: 27%;
+}
+.layout-ab ul.first, .layout-ab div.gadget.first {
+    width: 68%;
+}
+.layout-ab ul.third {
+    display: none;
+}
+.layout-aaa ul.column, .layout-aaa div.gadget {
+    width: 30.9%;
+}
+.layout.maximized .column, .layout.maximized .column.maximized li {
+    display: none;
+}
+.layout.maximized .column.maximized {
+    display: block;
+    width: 98%;
+}
+.layout.maximized .column.maximized li.maximized {
+    display: list-item;
+}
+.layout.maximized .column.maximized div.gadget.maximized .minimization {
+    display: none;
+}
+.dashboard.dragging ul.empty {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+}
+.dashboard.dragging ul.empty li.empty-text {
+    display: none !important;
+}
+.dashboard ul.column li.gadget {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #FFFFFF -moz-use-text-color;
+    border-image: none;
+    border-style: solid none;
+    border-width: 1px medium;
+    margin: 0 0 21px;
+    padding: 0 1px;
+    position: relative;
+}
+.dashboard ul.column li.gadget .gadget-hover {
+    background: none repeat scroll 0 0 #999999;
+}
+.dashboard div.gadget .gadget-container {
+    border: 1px solid #BBBBBB;
+}
+.dashboard .gadget-hover {
+    border-color: #999999;
+}
+.dashboard li.placeholder, .dashboard .columns .no-gadgets {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 2px dashed #BBBBBB;
+    margin: 0 0 21px;
+    min-height: 10em;
+    position: relative;
+}
+.dashboard .columns .no-gadgets {
+    min-height: 40em;
+}
+.dashboard div.gadget .dashboard-item-title {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    min-height: 18px;
+    padding: 4px 4.5em 2px 0.6em;
+}
+.dashboard div.gadget .dashboard-item-title a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.dashboard div.gadget .dashboard-item-title a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.dashboard.draggable div.gadget .dashboard-item-title {
+    cursor: move;
+}
+.dashboard.initializing div.gadget {
+    visibility: hidden;
+}
+.gadget .gadget-menu {
+    background: none repeat scroll 0 0 transparent;
+    color: #003366;
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 1px;
+}
+.gadget-hover .gadget-menu {
+    display: block;
+}
+.gadget .gadget-menu ul li.i-move {
+    background-position: 0 0;
+    margin: 3px 0 0;
+    width: 13px;
+}
+.gadget .gadget-menu ul {
+    float: right;
+    margin: 0 0 0 1em;
+    padding: 0;
+    width: auto;
+}
+.gadget .gadget-menu ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 0.2em;
+    width: auto;
+}
+.gadget-menu ul li a, .gadget-menu ul li span {
+    display: block;
+    padding: 0.1em 0.2em 0;
+}
+.gadget-menu ul .aui-dd-parent a {
+    margin: 4px 0 0;
+    padding: 0;
+}
+.gadget .gadget-menu ul li a.maximize {
+    background-position: -39px 0;
+    margin: 4px 0.2em 0;
+    padding: 0;
+}
+.gadget .maximized .gadget-menu ul li a.maximize {
+    background-position: -52px 0;
+}
+.gadget .gadget-menu .aui-dd-parent .aui-dropdown {
+    border: 1px solid #BBBBBB;
+    float: none;
+    margin: 0;
+    padding: 4px 0;
+}
+.gadget .gadget-menu ul .aui-dd-parent ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+.gadget .gadget-menu ul .aui-dd-parent ul li a {
+    float: none;
+    margin: 0;
+    text-decoration: none;
+    width: auto;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors {
+    min-width: 136px;
+    overflow: hidden;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors ul {
+    float: left;
+    margin: 0;
+    padding: 0.3em 2px 0.3em 6px;
+    width: auto;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li {
+    float: left;
+    margin: 0 4px 4px 0;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li a {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #BBBBBB;
+    color: #000000;
+    height: 10px;
+    padding: 0;
+    text-indent: 32767px;
+    width: 10px;
+}
+.gadget .aui-dd-parent .aui-dropdown div.gadget-colors li a:link, .gadget .aui-dd-parent .aui-dropdown div.gadget-colors li a:visited, .gadget .aui-dd-parent .aui-dropdown div.gadget-colors li a:hover, .gadget .aui-dd-parent .aui-dropdown div.gadget-colors li a:active, .gadget .aui-dd-parent .aui-dropdown div.gadget-colors li a:focus {
+    background: none repeat scroll 0 0 transparent;
+    color: #000000;
+    padding: 0;
+}
+.gadget .dashboard-item-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.gadget .dashboard-item-content.minimization {
+    left: -9999px;
+    position: absolute;
+    width: 100%;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color1, .dashboard div.color1 .gadget-hover, .dashboard div.color1 .dashboard-item-title {
+    background: none repeat scroll 0 0 #336699;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color1 a:hover {
+    border: 1px solid #336699;
+}
+.dashboard div.color1 .gadget-hover, div.color1 .gadget-hover .gadget-menu .aui-dropdown, div.color1 form.aui {
+    border-color: #D3DEE9;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color2, .dashboard div.color2 .gadget-hover, .dashboard div.color2 .dashboard-item-title {
+    background: none repeat scroll 0 0 #900925;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color2 a:hover {
+    border: 1px solid #900925;
+}
+.dashboard div.color2 .gadget-hover, div.color2 .gadget-hover .gadget-menu .aui-dropdown, div.color2 form.aui {
+    border-color: #E7CAD0;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color3, .dashboard div.color3 .gadget-hover, .dashboard div.color3 .dashboard-item-title {
+    background: none repeat scroll 0 0 #D94625;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color3 a:hover {
+    border: 1px solid #D94625;
+}
+.dashboard div.color3 .gadget-hover, div.color3 .gadget-hover .gadget-menu .aui-dropdown, div.color3 form.aui {
+    border-color: #F7D7D0;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color4, .dashboard div.color4 .gadget-hover, .dashboard div.color4 .dashboard-item-title {
+    background: none repeat scroll 0 0 #346006;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color4 a:hover {
+    border: 1px solid #346006;
+}
+.dashboard div.color4 .gadget-hover, div.color4 .gadget-hover .gadget-menu .aui-dropdown, div.color4 form.aui {
+    border-color: #D3DDC9;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color5, .dashboard div.color5 .gadget-hover, .dashboard div.color5 .dashboard-item-title {
+    background: none repeat scroll 0 0 #003366;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color5 a:hover {
+    border: 1px solid #003366;
+}
+.dashboard div.color5 .gadget-hover, div.color5 .gadget-hover .gadget-menu .aui-dropdown, div.color5 form.aui {
+    border-color: #C8D3DE;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color6, .dashboard div.color6 .gadget-hover, .dashboard div.color6 .dashboard-item-title {
+    background: none repeat scroll 0 0 #411E66;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color6 a:hover {
+    border: 1px solid #411E66;
+}
+.dashboard div.color6 .gadget-hover, div.color6 .gadget-hover .gadget-menu .aui-dropdown, div.color6 form.aui {
+    border-color: #D6CEDE;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color7, .dashboard div.color7 .gadget-hover, .dashboard div.color7 .dashboard-item-title {
+    background: none repeat scroll 0 0 #BBBBBB;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color7 a:hover {
+    border: 1px solid #000000;
+}
+.dashboard div.color7 .gadget-hover, div.color7 .gadget-hover .gadget-menu .aui-dropdown, div.color7 form.aui {
+    border-color: #F0F0F0;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color8 {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/icon_chromeless.gif") no-repeat scroll center center transparent;
+}
+.gadget .gadget-menu .aui-dd-parent .gadget-colors li.color8 a:hover, .gadget .gadget-menu .aui-dd-parent .gadget-colors li.color8 a:active, .gadget .gadget-menu .aui-dd-parent .gadget-colors li.color8 a:focus {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/icon_chromeless.gif") no-repeat scroll center center transparent;
+    border: 1px solid #000000;
+}
+div.color8 .gadget-hover .gadget-menu .aui-dropdown {
+    border: 1px solid #EEEEEE;
+}
+.dashboard div.color8 {
+    background: none repeat scroll 0 0 transparent;
+}
+.dashboard div.color8 .gadget-hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.dashboard div.color8 .gadget-container {
+    border: 1px solid #FFFFFF;
+}
+.dashboard div.color8 .gadget-hover {
+    border-color: #EEEEEE;
+}
+.dashboard div.color8 .dashboard-item-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.dashboard div.color8 .dashboard-item-title {
+    color: #000000;
+    visibility: hidden;
+}
+.dashboard div.color8 .gadget-hover .dashboard-item-title {
+    visibility: visible;
+}
+div.color8 form.aui {
+    border-color: transparent transparent #BBBBBB;
+}
+.color8 .gadget-menu ul li.i-move {
+    background-position: 0 -13px;
+}
+.color8 .gadget-menu ul li a.aui-dd-trigger:link, .color8 .gadget-menu ul li a.aui-dd-trigger:visited, .color8 .aui-dd-parent span a.aui-dd-trigger, .color8 .aui-dd-parent a.aui-dd-trigger {
+    background-position: -13px -13px;
+}
+.color8 .gadget-menu ul li a.aui-dd-trigger:hover, .color8 .gadget-menu ul li a.aui-dd-trigger:active, .color8 .gadget-menu ul li a.aui-dd-trigger:focus, .color8 .gadget-menu ul li a.aui-dd-trigger.active {
+    background-position: -26px -13px;
+}
+.color8 .gadget-menu ul li a.maximize {
+    background-position: -39px -13px;
+}
+.color8 .maximized .gadget-menu ul li a.maximize {
+    background-position: -52px -13px;
+}
+#layout-options {
+    display: none;
+}
+#layout-dialog .aui-dialog {
+    border: medium none;
+}
+#layout-dialog h2 a, #layout-dialog h2 a:link, #layout-dialog h2 a:visited, #layout-dialog h2 a:hover, #layout-dialog h2 a:active, #layout-dialog h2 a:focus {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/images/icons/close.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 0.5em;
+    text-indent: -9999px;
+    top: 0.75em;
+    width: 16px;
+}
+#layout-dialog .dialog-panel-body {
+    padding: 10px 0 10px 16px;
+}
+#layout-dialog p {
+    margin: 0 0 1em;
+    text-align: left;
+}
+#layout-dialog ul {
+    margin: 0;
+    padding: 0;
+}
+#layout-dialog ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#layout-dialog ul li a, #layout-dialog ul li a:link, #layout-dialog ul li a:visited {
+    border: 1px solid #BBBBBB;
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+    outline: medium none;
+    padding: 0.35em;
+    width: auto;
+}
+#layout-dialog ul li a:hover, #layout-dialog ul li a:active, #layout-dialog ul li a:focus {
+    border-color: #666666;
+}
+#layout-dialog ul li a strong {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/sprite-layouts.png") no-repeat scroll 0 0 #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 37px;
+    text-indent: -9999px;
+    width: 68px;
+}
+ul li a#layout-a strong {
+    background-position: 0 0;
+}
+ul li a#layout-aa strong {
+    background-position: 0 -41px;
+}
+ul li a#layout-ba strong {
+    background-position: 0 -82px;
+}
+ul li a#layout-ab strong {
+    background-position: 0 -123px;
+}
+ul li a#layout-aaa strong {
+    background-position: 0 -163px;
+}
+.layout-a ul li #layout-a strong, #layout-dialog #layout-a:hover strong, #layout-dialog #layout-a:active strong, #layout-dialog #layout-a:focus strong {
+    background-position: -72px -1px;
+}
+.layout-aa ul li #layout-aa strong, #layout-dialog #layout-aa:hover strong, #layout-dialog #layout-aa:active strong, #layout-dialog #layout-aa:focus strong {
+    background-position: -72px -41px;
+}
+.layout-ba #layout-ba strong, #layout-dialog #layout-ba:hover strong, #layout-dialog #layout-ba:active strong, #layout-dialog #layout-ba:focus strong {
+    background-position: -72px -82px;
+}
+.layout-ab #layout-ab strong, #layout-dialog #layout-ab:hover strong, #layout-dialog #layout-ab:active strong, #layout-dialog #layout-ab:focus strong {
+    background-position: -72px -122px;
+}
+.layout-aaa #layout-aaa strong, #layout-dialog #layout-aaa:hover strong, #layout-dialog #layout-aaa:active strong, #layout-dialog #layout-aaa:focus strong {
+    background-position: -72px -163px;
+}
+.layout-a ul li a#layout-a, .layout-aa ul li a#layout-aa, .layout-ba ul li a#layout-ba, .layout-ab ul li a#layout-ab, .layout-aaa ul li a#layout-aaa {
+    background-color: #EEEEEE;
+    border-color: #666666;
+}
+#macro-browser-dialog .dialog-page-menu {
+    margin-right: 0;
+}
+.aui-dialog .page-menu {
+    margin: 0;
+}
+.aui-dialog .dialog-button-panel button, .aui-dialog .dialog-button-panel a {
+    margin-right: 10px;
+}
+.aui-dialog .dialog-button-panel button.left {
+    margin: 2px 0 0 10px;
+}
+ul.page-menu button {
+    cursor: pointer;
+}
+ol.macro-list {
+    list-style: none outside none;
+    margin: -10px;
+    padding: 0;
+    width: auto;
+}
+.macro-list-item {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/bg-gadget-default.png") no-repeat scroll 10px 10px transparent;
+    border: 2px none white;
+    float: left;
+    font-size: 0.77em;
+    height: 142px;
+    overflow: hidden;
+    padding: 0 1%;
+    position: relative;
+    width: 48%;
+}
+.macro-details {
+    margin-left: 142px;
+}
+.macro-list-item .macro-uri-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.macro-list-item .macro-uri {
+    white-space: nowrap;
+}
+.macro-list-item .macro-desc {
+    height: 81px;
+    margin-top: 2px;
+    overflow: hidden;
+    position: relative;
+}
+.macro-list-item h3 {
+    margin: 11px 0 0;
+    padding: 0;
+}
+.macro-list-item img {
+    border: 1px solid #999999;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+.macro-list-item:hover {
+    background-color: #EEEEEE;
+}
+.macro-list-item .add-button {
+    float: left;
+    margin: 81px 0 0 4px;
+    width: auto;
+}
+.selected-macro:hover, .selected-macro {
+    background-color: #FFF3C5;
+}
+.aui-dialog .dialog-panel-body.macro-input-panel {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.macro-input-fields, .macro-preview-container, .macro-preview, #macro-insert-container, #macro-insert-container iframe {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.macro-preview-container {
+    border-right: 1px solid #EEEEEE;
+    float: left;
+    width: 531px;
+}
+.macro-preview {
+    padding: 0 10px;
+}
+.macro-input-fields {
+    float: left;
+    font-size: 0.8em;
+    width: 328px;
+}
+.macro-input-fields .macro-desc {
+    padding-top: 20px;
+}
+.macro-input-fields input, .macro-input-fields textarea {
+    width: 280px;
+}
+.macro-input-fields .boolean-param input {
+    width: auto;
+}
+.macro-input-fields .macro-param-div select {
+    min-width: 100px;
+}
+#macro-browser-dialog .macro-param-desc {
+    color: #666666;
+    font-size: 0.9em;
+    padding-bottom: 2px;
+    padding-top: 3px;
+}
+#macro-browser-dialog .macro-desc {
+    color: #333333;
+}
+#macro-browser-dialog .macro-title {
+    color: #333333;
+    font-weight: bold;
+}
+.macro-help, .macro-example, .macro-freeform-input, .macro-body-div, .macro-param-div, .macro-input-fields .macro-desc {
+    padding: 10px 10px 0;
+}
+.macro-body-div label, .macro-param-div label {
+    color: #000000;
+    display: block;
+    font-weight: normal;
+}
+.macro-help h3, .macro-example h3 {
+    color: #333333;
+    margin: 0;
+    padding: 10px 0;
+}
+#macro-browser-preview iframe {
+    border: medium none;
+    width: 100%;
+}
+#macro-browser-preview.macro-loading {
+    margin: 140px 0 0 180px;
+}
+#macro-browser-search {
+    float: right;
+    margin: 10px 0;
+}
+#macro-browser-throbber {
+    float: right;
+    margin: 7px 5px 0 0;
+}
+#add-by-url-template, #add-subscribed-gadget-feeds-template {
+    background-color: #BBBBBB;
+}
+#add-by-url-template .aui, #add-subscribed-gadget-feeds-template .aui {
+    background-color: #FFFFFF;
+    border: 0 solid #EEEEEE;
+    margin: auto -10px;
+    padding: 10px;
+    text-align: center;
+}
+.macro-input-fields .unknown {
+    color: #BBBBBB;
+    font-style: italic;
+}
+.aui-dialog .info {
+    background-color: #EFEFEF;
+    border: 1px solid #999999;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.aui-dialog .info p {
+    margin: 10px 0;
+}
+.aui-dialog .nobox {
+    background-color: #FFFFFF;
+    border: 0 solid #999999;
+}
+.macro-button-remove {
+    display: none;
+}
+.macro-button-remove-broken {
+    display: none;
+}
+#gadget-feed-subscriptions ul {
+    margin-left: 0;
+}
+#gadget-feed-subscriptions ul li {
+    list-style: none outside none;
+    padding: 5px 19px 5px 8px;
+    position: relative;
+}
+#gadget-feed-subscriptions ul li:hover {
+    background: none repeat scroll 0 0 #F0F0F0;
+}
+#gadget-feed-subscriptions a.remove {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/icogrey_delete.gif") no-repeat scroll 3px 3px transparent;
+    display: block;
+    font-size: 90%;
+    height: 11px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    text-indent: -9999px;
+    top: 6px;
+    width: 11px;
+}
+#gadget-feed-subscriptions .app {
+    margin-right: 7px;
+}
+#gadget-feed-subscriptions img.app {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+#gadget-feed-subscriptions .info {
+    position: relative;
+}
+#gadget-feed-subscriptions .throbber {
+    left: 0;
+    position: absolute;
+    top: -7px;
+}
+#gadget-feed-subscriptions li .throbber {
+    left: auto;
+    right: 0;
+    top: 0;
+}
+#add-gadget-disabled {
+    color: gray;
+    font-weight: bold;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+.dashboard.dragging .hotspot-shim {
+    display: block;
+}
+.hotspot-shim {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+.throbber {
+    height: 25px;
+    width: 20px;
+}
+.throbber.loading {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/wait.gif") no-repeat scroll 0 5px transparent;
+}
+#dir-throbber {
+    float: left;
+    margin: 3px 10px 0 0;
+}
+.centered-form {
+    margin: 15px 0;
+    padding: 0 160px;
+    text-align: left;
+}
+.centered-form span.description {
+    font-size: 0.8em;
+}
+.dashboard-shim {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+.propagation-blocker .dashboard-shim {
+    display: block;
+}
+.layout {
+    clear: both;
+    padding: 1em 0.5em;
+}
+.layout:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.dashboard.initializing .layout * {
+    visibility: hidden;
+}
+.layout .placeholder p {
+    background: none repeat scroll 0 0 transparent;
+    color: #AAAAAA;
+    font-size: 2em;
+    padding: 2em;
+    text-align: center;
+}
+div.gadget {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+}
+.propagation-blocker div.gadget {
+    z-index: 2;
+}
+div.gadget.dragging {
+    z-index: 3;
+}
+div.gadget.dropdown-active {
+    z-index: 5 !important;
+}
+div.gadget .gadget-container {
+    position: relative;
+}
+div.gadget .gadget-container .shadow {
+    display: none;
+    left: 0;
+    margin-left: -16px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+div.gadget.dragging .gadget-container .shadow, div.gadget.dropdown-active .gadget-container .shadow {
+    z-index: 7;
+}
+div.gadget.dropdown-active .gadget-container .shadow {
+    display: block !important;
+}
+div.gadget.dropdown-active .gadget-container .shadow div {
+    visibility: hidden;
+}
+div.gadget.dropdown-active .gadget-menu {
+    z-index: 8;
+}
+div.gadget .gadget-container .submit.loading {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/wait.gif") no-repeat scroll 100% center transparent;
+}
+#diagnostic-warning {
+    background: none repeat scroll 0 0 #FFFFDD;
+    border: 1px solid #F7DF92;
+    color: #333333;
+    margin: 0 0 0.2em;
+    text-align: center;
+}
+#diagnostic-content {
+    text-align: left;
+}
+#diagnostic-warning p {
+    margin: 0 1em;
+    padding: 0.3em;
+}
+#diagnostic-warning a.close {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/images/icons/close.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 16px;
+    line-height: 12px;
+    text-indent: -9999px;
+    width: 16px;
+}
+ul.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+ul.tabs li {
+    border: 0.083em solid #BBBBBB;
+    display: block;
+    margin: -0.083em -0.083em 0 0;
+    padding: 0;
+}
+ul.tabs li:hover {
+    cursor: pointer;
+}
+ul.tabs li a {
+    background-color: #F0F0F0;
+    color: #535353;
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+}
+ul.tabs li a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #535353;
+}
+ul.tabs li em {
+    display: none;
+}
+ul.tabs li strong, ul.tabs li.tab-title {
+    display: block;
+    overflow: hidden;
+    padding: 0.4em 0.5em 0.2em;
+    white-space: nowrap;
+}
+ul.tabs li.tab-title {
+    background-color: #FFFFFF;
+    border: medium none;
+    cursor: default;
+    margin: 0;
+}
+ul.tabs li.active {
+    background-color: #FFFFFF;
+}
+ul.tabs li.active strong {
+    background-color: transparent;
+    color: #000000;
+    cursor: default;
+}
+ul.tabs li.active a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+}
+ul.tabs li.active.loading a {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/wait.gif") no-repeat scroll 95% center #FFFFFF;
+}
+ul.vertical {
+    float: left;
+    margin-right: -0.083em;
+    position: relative;
+    width: 11em;
+}
+ul.vertical li {
+    margin: -0.083em 0 0;
+}
+ul.vertical li.tab-title {
+    border-right: 0.083em solid #BBBBBB;
+    margin-bottom: 0.083em;
+}
+ul.vertical li.first {
+    margin-top: 1em;
+}
+ul.vertical li.active {
+    background-color: #FFFFFF;
+    border-right: medium none;
+    margin-left: -0.5em;
+}
+.tabwrap ul.vertical {
+    left: 0;
+}
+.tabwrap {
+    border-bottom: 0.083em solid #BBBBBB;
+    margin: 1em 0;
+    padding-left: 0.5em;
+    position: relative;
+}
+ul.horizontal {
+    overflow: hidden;
+    position: relative;
+    top: 0.083em;
+}
+ul.horizontal li {
+    float: left;
+    margin: 0 -0.083em 0 0;
+    white-space: nowrap;
+    width: auto;
+}
+ul.horizontal li strong, ul.horizontal li.tab-title {
+    padding: 0.2em 0.5em 0.1em;
+}
+ul.horizontal li.first {
+    margin-left: 1em;
+}
+ul.horizontal li.active {
+    border-bottom-color: #FFFFFF;
+    color: #000000;
+}
+ul.tabs {
+    clear: left;
+}
+ul.tabs li {
+    position: relative;
+}
+ul.tabs li.hover a {
+    background: none repeat scroll 0 0 #336699;
+    color: #FFFFFF;
+}
+ul.tabs li.inactive {
+    opacity: 0.5;
+}
+.dashboard.v-tabs {
+    padding-left: 12em;
+}
+.dashboard.v-tabs ul.vertical {
+    float: none;
+    left: 1.083em;
+    position: absolute;
+    top: 1em;
+}
+.dashboard.hotspot-active li.placeholder {
+    display: none !important;
+}
+.shim {
+    display: none !important;
+}
+#dash-options {
+    float: right;
+    padding: 0.5em 1em 0;
+    z-index: 1000;
+}
+ul.operations {
+    list-style-type: none;
+    margin: 0;
+}
+ul.operations li {
+    float: left;
+    margin: 0 0 0 4px;
+    position: relative;
+}
+ul.operations li a.lnk {
+    background-color: transparent;
+    color: #333333;
+    float: left;
+    font-size: 1.1em;
+    padding: 3px 7px 4px 25px;
+    text-decoration: none;
+}
+ul.operations li a.lnk:hover, ul.operations li.active a.lnk {
+    background-color: #325C82;
+    color: #FFFFFF;
+}
+ul.operations li a.lnk img {
+    left: 5px;
+    position: absolute;
+    top: 5px;
+}
+ul.operations li a.lnk.no-icon {
+    padding-left: 5px;
+}
+ul.operations li ul {
+    margin: 0;
+}
+#dashboard-tools-dropdown .lnk span {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/menu_indicator_for_light_backgrounds.gif") no-repeat scroll 97% 55% transparent;
+    padding-right: 12px;
+}
+#dashboard-tools-dropdown .lnk:hover span, #dashboard-tools-dropdown.active .lnk span {
+    background-image: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/css/images/ffffff_7x7_arrow_down.gif");
+}
+#dashboard-tools-dropdown .aui-shadow {
+    top: 30px !important;
+}
+.icon-add {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/images/icons/add_20.png") no-repeat scroll 2px 2px transparent;
+    padding-left: 2.2em;
+}
+.icon-edit {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/images/icons/edit_20.png") no-repeat scroll 2px 2px transparent;
+    padding-left: 2.2em;
+}
+.icon-tools {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/images/icons/tools_20.png") no-repeat scroll 2px 2px transparent;
+    padding-left: 2.2em;
+}
+.icon-restore {
+    background: url("/s/en_US8z8gmu/768/3/3.2.0-m2/_/download/resources/com.atlassian.gadgets.dashboard:dashboard/../../resources/com.atlassian.gadgets.dashboard%3Adashboard/images/icons/ico_dash_666_restore.gif") no-repeat scroll 4px 4px transparent;
+    padding-left: 2.2em;
+}
+#dashboard-content {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 0.4em 0.4em 0.4em 0.4em;
+    min-height: 600px;
+    position: relative;
+}
+.initializing #dashboard-content {
+    height: 600px;
+    overflow: hidden;
+}
+.aui-override.aui-message {
+    border-radius: 0 0 0 0;
+    color: #000000;
+    margin: 0;
+    padding: 16px;
+}
+.aui-override.aui-message-error, #gadget-feed-subscriptions .aui-override.aui-message-error:hover {
+    background-color: #FFE7E7;
+    border-color: #DF9898;
+}

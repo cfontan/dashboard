@@ -72,6 +72,7 @@
     <Content Include="css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
     <Content Include="css\custom-theme\images\ui-icons_e99158_256x240.png" />
     <Content Include="css\custom-theme\jquery-ui-1.8.19.custom.css" />
+    <Content Include="css\dashboard.css" />
     <Content Include="css\gbl-IE8.css" />
     <Content Include="css\gbl-nav.css" />
     <Content Include="css\gbl.css" />

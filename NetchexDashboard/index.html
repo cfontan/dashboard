@@ -4,22 +4,92 @@
     <title>Widget Dashboard</title>
     <link href="/css/gbl.css" rel="stylesheet" />
 	<link href="/css/custom-theme/jquery-ui-1.8.19.custom.css" rel="stylesheet" type="text/css" />
+    <link href="/css/dashboard.css" rel="stylesheet" />
 </head>
 <body>
 
-    <div id="container">
-        <div id="content">
-
-                
-        <!-- feel free to fix any css that is styling this widget if it is not correct. -->
-	    <div class="gbl-table-wrapper ui-widget">
-		    <div class="ui-widget-header">TableHeaderTextChangeMe</div>
-            <div class="ui-widget-content">my widget content</div>    
-        </div>
-
-
+    <section id="Section1" role="main">
+    <div id="dashboard" class="dashboard draggable">
+        <div id="dashboard-header">Dashboard Header</div>
+        <div id="dashboard-content">
+            <div id="dash-options">
+                <ul class="operations enabled">
+                    <li>
+                        <div id="dash-throbber" class="throbber"></div>
+                    </li>
+                    <li>
+                        <a id="add-gadget" class="lnk icon-add add-gadget-link" href="http://viper.netchux.com:8080">Add Gadget</a>
+                    </li>
+                    <li>
+                        <a id="layout-changer" class="lnk icon-edit" href="http://viper.netchux.com:8080/#">Edit Layout</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dashboard-shim"></div>
+            <div class="layout layout-aaa">
+                <ul class="column first sortable ui-sortable" style="min-height: 1224.4px;">
+                    <li id="rep-10244" class="gadget" style="height: 341px;">Gadget 10244</li>
+                </ul>
+                <ul class="column second sortable ui-sortable" style="min-height: 1224.4px;">
+                    <li id="rep-10204" class="gadget" style="height: 284px;">Gadget 10204</li>
+                    <li id="rep-10205" class="gadget" style="height: 139px;">Gadget 10205</li>
+                    <li id="rep-10203" class="gadget" style="height: 553px;">Gadget 10203</li>
+                    <li id="rep-10206" class="gadget" style="height: 194px;">Gadget 10206</li>
+                </ul>
+                <ul class="column third sortable ui-sortable empty" style="min-height: 1224.4px;">
+                    <li class="empty-text">Drag your gadgets here or
+                        <a id="add-gadget-2" class="add-gadget-link" href="#">add a new gadget.</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="gadget-10244-renderbox" class="gadget color8" style="left: 1.06117%; top: 46.2px; width: 31.8661%;">
+                <div id="gadget-10244-chrome" class="dashboard-item-frame gadget-container">
+                    <div class="shadow">
+                        <div class="tl"></div>
+                        <div class="tr"></div>
+                        <div class="l"></div>
+                        <div class="r"></div>
+                        <div class="bl"></div>
+                        <div class="br"></div>
+                        <div class="b"></div>
+                    </div>
+                    <div class="dashboard-item-header">
+                        <h3 id="gadget-10244-title" class="dashboard-item-title">Crucible Charts</h3>
+                        <div class="gadget-menu">
+                            <ul>
+                                <li class="aui-icon i-move">move</li>
+                                <li>
+                                    <a id="gadget-10244-maximize" class="aui-icon maximize" title="Maximize" href="#">Maximize</a>
+                                </li>
+                                <li class="aui-dd-parent dd-allocated">
+                                    <a id="A1" class="aui-dd-trigger standard " href="#">
+                                        <span>Gadget menu</span>
+                                    </a>
+                                    <ul class="aui-dropdown standard hidden">
+                                        <li class="dropdown-item">
+                                            <a class="item-link minimization" href="#">Minimize</a>
+                                        </li>
+                                        <li class="item-link gadget-colors">
+                                            <li class="dropdown-item">
+                                                <a class="item-link delete" href="#">Delete</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dashboard-item-content ">
+                        Hello World
+                    </div>
+              
+                <div id="gadget-10204-renderbox" class="gadget color1" style="left: 34.0597%; top: 46.2px; width: 31.8661%;"> gadget-10204-renderbox</div>
+                <div id="gadget-10205-renderbox" class="gadget color1" style="left: 34.0597%; top: 347.8px; width: 31.8661%;">gadget-10205-renderbox</div>
+                <div id="gadget-10203-renderbox" class="gadget color1" style="left: 34.0597%; top: 504.4px; width: 31.8661%;">gadget-10203-renderbox</div>
+                <div id="gadget-10206-renderbox" class="gadget color1" style="left: 34.0597%; top: 1075px; width: 31.8661%;"> gadget-10206-renderbox</div>
+            </div>
         </div>
     </div>
+    </section>
 
 
 
@@ -34,6 +104,21 @@
 	<script src="/js/plugins/table-sorter/jquery.tablesorter.js" type="text/javascript"></script>
 	<script src="/js/plugins/table-sorter/jquery.tablesorter.widgets.js" type="text/javascript"></script>
     <script type="text/javascript">
+        $(function () {
+
+            /* this is all hacks */
+            $(".sortable").sortable({
+                revert: true
+            });
+            $(".gadget").draggable({
+                connectToSortable: ".sortable",
+                revert: "invalid"
+            });
+            $("ul, li").disableSelection();
+
+        });
+
+
         $(document).ready(function () {
 
 
